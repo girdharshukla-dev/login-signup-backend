@@ -23,7 +23,7 @@ async function userRegister(req,resp){
         return resp.status(201).json({message : "User inserted ", userID : result})
     }catch(err){
         console.log("Error : ", err.message);
-        return resp.status(400).json({message : "error in inserting ....."})
+        return resp.status(400).json({message : "User registration failed ....."})
     }
 }
 

@@ -1,6 +1,6 @@
 const db = require("../dbConnection");
 
-const createTableQuery = "CREATE TABLE IF NOT EXISTS users( id INTEGER AUTO_INCREMENT PRIMARY KEY, username VARCHAR(100), email VARCHAR(100), password VARCHAR(100));";
+const createTableQuery = "CREATE TABLE IF NOT EXISTS users( id INTEGER AUTO_INCREMENT PRIMARY KEY, username VARCHAR(100), email VARCHAR(100) UNIQUE, password VARCHAR(200));";
 
 db.query(createTableQuery)
   .then(()=>{
