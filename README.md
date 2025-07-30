@@ -33,8 +33,8 @@ A simple authentication API built with Node.js, Express, MySQL, JWT, and bcrypt.
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/girdharshukla-dev/login-signup-backend.git
+cd login-signup-backend
 ```
 2. **Install dependencies**
 ```
